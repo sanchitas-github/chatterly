@@ -1,0 +1,138 @@
+* {
+ 
+  box-sizing: border-box;
+}
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fbb3f4;
+  color: white;
+  position:relative;
+  border: 2px solid black;
+  
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+
+.navbar-profile {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-username {
+  margin-right: 10px;
+  
+}
+
+.navbar-profile-picture {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.nav2{
+  display: flex;
+  background-color:#f578e4;
+  position: relative;
+  width: 100%;
+  height: 70px;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 2px;
+  border: 1px solid black;
+}
+.create{
+  position: relative;
+  color: black;
+  padding-left:60px;
+  padding-bottom: 3px;
+  font-size: 13px;
+}
+
+.all{
+  position: relative;
+  border: none;
+  background-color: rgba(240, 241, 241, 1);
+  color: rgba(121, 121, 121, 1);
+  border-radius: 45px;
+  margin-left: 59px;
+  padding: 3px 65px 2px 2px;
+  /* padding-top: 3px; */
+  font-size: 13px;
+}
+
+
+.navbar-search {
+  padding: 5px 10px;
+  margin: 500px;
+  border: none;
+  border-radius: 5px;
+  justify-content: right;
+  display: flex;
+  width: 200px;
+  position:relative;
+}
+.para{
+  margin: 20px;
+}
+.navbar-links {
+  display: flex;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ddd;
+}
+
+.navbar-buttons .btn {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-right: 5rem;
+  cursor: pointer;
+  background-color: rgb(231, 21, 231);
+  
+}
+.navbar-buttons .btn1 {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-right: 5rem;
+  cursor: pointer;
+  background-color: rgb(231, 21, 231);
+  
+}
+ .btn:hover {
+  background-color:10px rgb(194, 13, 194);
+  
+}
+
+.login-btn {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+
